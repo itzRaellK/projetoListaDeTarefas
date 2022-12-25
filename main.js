@@ -16,7 +16,7 @@ $(document).ready(function() {
         $("#nova-tarefa").val("");
 
         $("li").click(function() {
-            $(this).parents("li").css({"text-decoration":"line-through"});
+            $(this).parents("li").css({"text-decoration":"line-through"})
         })
     })
 })
